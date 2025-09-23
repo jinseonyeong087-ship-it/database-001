@@ -1,0 +1,181 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "test",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "-GeevA0m8V5LMlfbWOQ3u"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "-GeevA0m8V5LMlfbWOQ3u": {
+        "id": "-GeevA0m8V5LMlfbWOQ3u",
+        "name": "test",
+        "comment": "연습",
+        "columnIds": [
+          "J8-O8zScNXuH_SB3N_s0z",
+          "16-hz0QQ6Q7XvZhuC-UdQ",
+          "I_LTPRKinWQxhUCgiyY_d",
+          "rC0msVew5ksJMBikOwD6r",
+          "Y3B4nRzQYXE7yIoy9NYKu"
+        ],
+        "seqColumnIds": [
+          "J8-O8zScNXuH_SB3N_s0z",
+          "16-hz0QQ6Q7XvZhuC-UdQ",
+          "I_LTPRKinWQxhUCgiyY_d",
+          "rC0msVew5ksJMBikOwD6r",
+          "Y3B4nRzQYXE7yIoy9NYKu"
+        ],
+        "ui": {
+          "x": 97,
+          "y": 165,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": "#738EA3"
+        },
+        "meta": {
+          "updateAt": 1758604782159,
+          "createAt": 1758604212530
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "J8-O8zScNXuH_SB3N_s0z": {
+        "id": "J8-O8zScNXuH_SB3N_s0z",
+        "tableId": "-GeevA0m8V5LMlfbWOQ3u",
+        "name": "name",
+        "comment": "연습명칭",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758604248183,
+          "createAt": 1758604223491
+        }
+      },
+      "16-hz0QQ6Q7XvZhuC-UdQ": {
+        "id": "16-hz0QQ6Q7XvZhuC-UdQ",
+        "tableId": "-GeevA0m8V5LMlfbWOQ3u",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758604752113,
+          "createAt": 1758604752113
+        }
+      },
+      "I_LTPRKinWQxhUCgiyY_d": {
+        "id": "I_LTPRKinWQxhUCgiyY_d",
+        "tableId": "-GeevA0m8V5LMlfbWOQ3u",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758604752640,
+          "createAt": 1758604752640
+        }
+      },
+      "rC0msVew5ksJMBikOwD6r": {
+        "id": "rC0msVew5ksJMBikOwD6r",
+        "tableId": "-GeevA0m8V5LMlfbWOQ3u",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758604753160,
+          "createAt": 1758604753160
+        }
+      },
+      "Y3B4nRzQYXE7yIoy9NYKu": {
+        "id": "Y3B4nRzQYXE7yIoy9NYKu",
+        "tableId": "-GeevA0m8V5LMlfbWOQ3u",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758604754250,
+          "createAt": 1758604754250
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  }
+}
