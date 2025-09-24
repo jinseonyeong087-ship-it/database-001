@@ -5,11 +5,11 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": 0,
+    "scrollLeft": -2,
     "zoomLevel": 1,
     "show": 431,
     "database": 4,
-    "databaseName": "test",
+    "databaseName": "ShoppingMall",
     "canvasType": "ERD",
     "language": 1,
     "tableNameCase": 4,
@@ -31,9 +31,12 @@
   },
   "doc": {
     "tableIds": [
-      "-GeevA0m8V5LMlfbWOQ3u"
+      "us3pU7dEN-whb7WboO3Ut",
+      "LzzL7F8iMJYPKqgSPX6S-"
     ],
-    "relationshipIds": [],
+    "relationshipIds": [
+      "fisnp4uCO5qGEigIgclAT"
+    ],
     "indexIds": [],
     "memoIds": []
   },
@@ -68,6 +71,58 @@
         "meta": {
           "updateAt": 1758604782159,
           "createAt": 1758604212530
+        }
+      },
+      "us3pU7dEN-whb7WboO3Ut": {
+        "id": "us3pU7dEN-whb7WboO3Ut",
+        "name": "Company",
+        "comment": "회사정보",
+        "columnIds": [
+          "RuA-oYWtFPAvOhr_HOi6n",
+          "KCwn_6zxnt-04-vm2YZwn"
+        ],
+        "seqColumnIds": [
+          "RuA-oYWtFPAvOhr_HOi6n",
+          "KCwn_6zxnt-04-vm2YZwn"
+        ],
+        "ui": {
+          "x": 35,
+          "y": 92,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1758678447496,
+          "createAt": 1758678074417
+        }
+      },
+      "LzzL7F8iMJYPKqgSPX6S-": {
+        "id": "LzzL7F8iMJYPKqgSPX6S-",
+        "name": "Employee",
+        "comment": "직원정보",
+        "columnIds": [
+          "xMApYdbefLIHkKZr91Ums",
+          "iq23kxikpym-9cKjur1Da",
+          "69GngVQ9qlAuzc8Uw6knP"
+        ],
+        "seqColumnIds": [
+          "xMApYdbefLIHkKZr91Ums",
+          "iq23kxikpym-9cKjur1Da",
+          "69GngVQ9qlAuzc8Uw6knP"
+        ],
+        "ui": {
+          "x": 304,
+          "y": 230,
+          "zIndex": 31,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1758679743538,
+          "createAt": 1758678299153
         }
       }
     },
@@ -171,9 +226,138 @@
           "updateAt": 1758604754250,
           "createAt": 1758604754250
         }
+      },
+      "RuA-oYWtFPAvOhr_HOi6n": {
+        "id": "RuA-oYWtFPAvOhr_HOi6n",
+        "tableId": "us3pU7dEN-whb7WboO3Ut",
+        "name": "company_id",
+        "comment": "사업자번호_PK",
+        "dataType": "VARCHAR",
+        "default": "1234567890",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 66,
+          "widthComment": 81,
+          "widthDataType": 60,
+          "widthDefault": 67
+        },
+        "meta": {
+          "updateAt": 1758678493833,
+          "createAt": 1758678190953
+        }
+      },
+      "KCwn_6zxnt-04-vm2YZwn": {
+        "id": "KCwn_6zxnt-04-vm2YZwn",
+        "tableId": "us3pU7dEN-whb7WboO3Ut",
+        "name": "company_name",
+        "comment": "회사명",
+        "dataType": "VARCHAR",
+        "default": "\"",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 85,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758678501283,
+          "createAt": 1758678259937
+        }
+      },
+      "xMApYdbefLIHkKZr91Ums": {
+        "id": "xMApYdbefLIHkKZr91Ums",
+        "tableId": "LzzL7F8iMJYPKqgSPX6S-",
+        "name": "emp_id",
+        "comment": "직원번호",
+        "dataType": "VARCHAR",
+        "default": "2020001",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758678359273,
+          "createAt": 1758678323610
+        }
+      },
+      "iq23kxikpym-9cKjur1Da": {
+        "id": "iq23kxikpym-9cKjur1Da",
+        "tableId": "LzzL7F8iMJYPKqgSPX6S-",
+        "name": "emp_name",
+        "comment": "직원명",
+        "dataType": "VARCHAR",
+        "default": "\"",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758678388598,
+          "createAt": 1758678362961
+        }
+      },
+      "69GngVQ9qlAuzc8Uw6knP": {
+        "id": "69GngVQ9qlAuzc8Uw6knP",
+        "tableId": "LzzL7F8iMJYPKqgSPX6S-",
+        "name": "company_id",
+        "comment": "사업자번호_PK",
+        "dataType": "VARCHAR",
+        "default": "1234567890",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 66,
+          "widthComment": 81,
+          "widthDataType": 60,
+          "widthDefault": 67
+        },
+        "meta": {
+          "updateAt": 1758678537560,
+          "createAt": 1758678537560
+        }
       }
     },
-    "relationshipEntities": {},
+    "relationshipEntities": {
+      "fisnp4uCO5qGEigIgclAT": {
+        "id": "fisnp4uCO5qGEigIgclAT",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "us3pU7dEN-whb7WboO3Ut",
+          "columnIds": [
+            "RuA-oYWtFPAvOhr_HOi6n"
+          ],
+          "x": 453,
+          "y": 144,
+          "direction": 2
+        },
+        "end": {
+          "tableId": "LzzL7F8iMJYPKqgSPX6S-",
+          "columnIds": [
+            "69GngVQ9qlAuzc8Uw6knP"
+          ],
+          "x": 503.5,
+          "y": 230,
+          "direction": 4
+        },
+        "meta": {
+          "updateAt": 1758678537561,
+          "createAt": 1758678537561
+        }
+      }
+    },
     "indexEntities": {},
     "indexColumnEntities": {},
     "memoEntities": {}
