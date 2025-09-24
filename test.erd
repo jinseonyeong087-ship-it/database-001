@@ -103,25 +103,25 @@
         "name": "Employee",
         "comment": "직원정보",
         "columnIds": [
+          "69GngVQ9qlAuzc8Uw6knP",
           "xMApYdbefLIHkKZr91Ums",
-          "iq23kxikpym-9cKjur1Da",
-          "69GngVQ9qlAuzc8Uw6knP"
+          "iq23kxikpym-9cKjur1Da"
         ],
         "seqColumnIds": [
+          "69GngVQ9qlAuzc8Uw6knP",
           "xMApYdbefLIHkKZr91Ums",
-          "iq23kxikpym-9cKjur1Da",
-          "69GngVQ9qlAuzc8Uw6knP"
+          "iq23kxikpym-9cKjur1Da"
         ],
         "ui": {
-          "x": 304,
-          "y": 230,
+          "x": 134,
+          "y": 281,
           "zIndex": 31,
           "widthName": 60,
           "widthComment": 60,
           "color": ""
         },
         "meta": {
-          "updateAt": 1758679743538,
+          "updateAt": 1758679950438,
           "createAt": 1758678299153
         }
       }
@@ -232,18 +232,18 @@
         "tableId": "us3pU7dEN-whb7WboO3Ut",
         "name": "company_id",
         "comment": "사업자번호_PK",
-        "dataType": "VARCHAR",
+        "dataType": "VARCHAR(10)",
         "default": "1234567890",
         "options": 10,
         "ui": {
           "keys": 1,
           "widthName": 66,
           "widthComment": 81,
-          "widthDataType": 60,
+          "widthDataType": 75,
           "widthDefault": 67
         },
         "meta": {
-          "updateAt": 1758678493833,
+          "updateAt": 1758680598611,
           "createAt": 1758678190953
         }
       },
@@ -252,18 +252,18 @@
         "tableId": "us3pU7dEN-whb7WboO3Ut",
         "name": "company_name",
         "comment": "회사명",
-        "dataType": "VARCHAR",
+        "dataType": "VARCHAR(50)",
         "default": "\"",
         "options": 8,
         "ui": {
           "keys": 0,
           "widthName": 85,
           "widthComment": 60,
-          "widthDataType": 60,
+          "widthDataType": 75,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1758678501283,
+          "updateAt": 1758680608672,
           "createAt": 1758678259937
         }
       },
@@ -272,18 +272,18 @@
         "tableId": "LzzL7F8iMJYPKqgSPX6S-",
         "name": "emp_id",
         "comment": "직원번호",
-        "dataType": "VARCHAR",
+        "dataType": "VARCHAR(7)",
         "default": "2020001",
         "options": 10,
         "ui": {
           "keys": 1,
           "widthName": 60,
           "widthComment": 60,
-          "widthDataType": 60,
+          "widthDataType": 68,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1758678359273,
+          "updateAt": 1758680616608,
           "createAt": 1758678323610
         }
       },
@@ -292,18 +292,18 @@
         "tableId": "LzzL7F8iMJYPKqgSPX6S-",
         "name": "emp_name",
         "comment": "직원명",
-        "dataType": "VARCHAR",
+        "dataType": "VARCHAR(50)",
         "default": "\"",
         "options": 8,
         "ui": {
           "keys": 0,
           "widthName": 60,
           "widthComment": 60,
-          "widthDataType": 60,
+          "widthDataType": 75,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1758678388598,
+          "updateAt": 1758680624176,
           "createAt": 1758678362961
         }
       },
@@ -312,18 +312,18 @@
         "tableId": "LzzL7F8iMJYPKqgSPX6S-",
         "name": "company_id",
         "comment": "사업자번호_PK",
-        "dataType": "VARCHAR",
+        "dataType": "VARCHAR(10)",
         "default": "1234567890",
         "options": 8,
         "ui": {
           "keys": 2,
           "widthName": 66,
           "widthComment": 81,
-          "widthDataType": 60,
+          "widthDataType": 75,
           "widthDefault": 67
         },
         "meta": {
-          "updateAt": 1758678537560,
+          "updateAt": 1758680598611,
           "createAt": 1758678537560
         }
       }
@@ -339,17 +339,17 @@
           "columnIds": [
             "RuA-oYWtFPAvOhr_HOi6n"
           ],
-          "x": 453,
-          "y": 144,
-          "direction": 2
+          "x": 251.5,
+          "y": 196,
+          "direction": 8
         },
         "end": {
           "tableId": "LzzL7F8iMJYPKqgSPX6S-",
           "columnIds": [
             "69GngVQ9qlAuzc8Uw6knP"
           ],
-          "x": 503.5,
-          "y": 230,
+          "x": 341,
+          "y": 281,
           "direction": 4
         },
         "meta": {
