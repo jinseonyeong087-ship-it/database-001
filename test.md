@@ -16,12 +16,12 @@
 
 ### 2025.09.24 / ver 0.1
 ### 작성자 : 홍길동
-![alt text](shoppingmall.png)
+![alt text](img/shoppingmall.png)
 
 학교 식단 및 운영에 대한 DB
 ## ERD
-![alt text](image.png)
-![alt text](test.png)
+![alt text](img/image.png)
+![alt text](img/test.png)
 
 ## Skill set
 
